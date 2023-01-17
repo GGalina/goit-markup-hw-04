@@ -115,7 +115,7 @@ body {
     color: var(--accent-color);
 }
 .tel {
-    margin-left: 50px;;
+    margin-left: 30px;;
 }
 .header-icon {
     fill: var(--secondary-text-color);
@@ -198,7 +198,6 @@ body {
     padding-bottom: 0;
 }
 .benefits-wrap {
-    width: 270px;
     height: 120px;
     background-color: #F5F4FA;
     border-radius: 4px;
@@ -236,12 +235,15 @@ body {
 }
 .team-name {
     font-weight: 500;
-    padding-top: 30px;
     margin-bottom: 10px;
+}
+.team-desc {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .team-job-title {
     color: var(--secondary-text-color);
-    padding-bottom: 30px;
+    margin-bottom: 16px;
 }
 .team-list {
     display: flex;
@@ -256,7 +258,8 @@ body {
     display: flex;
     gap: 10px;
     align-items: center;
-    padding: 16px 32px 30px 32px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 .team-soc-item {
     width: 44px;
